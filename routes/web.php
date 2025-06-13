@@ -1,16 +1,15 @@
 <?php
 
-<<<<<<< HEAD
-=======
+
+
 use App\Http\Controllers\ProfileController;
->>>>>>> 6ea9737 (projetointegrador-laravel-12-06)
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
+
 Route ::get('/sobrenos', function () { return 'Essa é a pagína sobre nós'; });
  
 Route ::get('/logincadastro', function () { return 'Essa é a pagína de login e cadastro'; });
@@ -21,7 +20,7 @@ Route ::get('/contatos', function () { return 'Essa é a pagína sobre os contat
 Route ::get('/contrato', function () { return 'Essa é a pagína para contratar um profissional'; });
 Route::get('/login', function(){
     return 'Essa é a página de login'; });
-=======
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -38,4 +37,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
->>>>>>> 6ea9737 (projetointegrador-laravel-12-06)
+

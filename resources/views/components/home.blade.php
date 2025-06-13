@@ -11,55 +11,11 @@
 
     <!-- Estilos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('Css/styles1.css') }}">
-     <link rel="stylesheet" href="{{ asset('Css/styles.css')}}">
+
 </head>
 
 <body>
 
-    <!-- SLIDER -->
-    <div class="slide-body">
-        <div class="slider">
-            <div class="slides">
-
-                <!-- Radio Buttons -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-
-                <!-- Imagens do slide -->
-                <div class="slide first">
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg" alt="Imagem 1" />
-                </div>
-                <div class="slide">
-                    <img src="{{ asset('imagens/wallpaperflare.com_wallpaper.jpg') }}" alt="Imagem 2" />
-                </div>
-                <div class="slide">
-                    <img src="{{ asset('imagens/wallpaperflare.com_wallpaper (1).jpg') }}" alt="Imagem 3" />
-                </div>
-                <div class="slide">
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/6326651-tropical-praia-sundown-horizonte-paisagem-vetor.jpg" alt="Imagem 4" />
-                </div>
-
-                <!-- Navegação automática -->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-            </div>
-
-            <!-- Navegação manual -->
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-        </div>
-    </div>
 
     
 
